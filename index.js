@@ -95,8 +95,4 @@ class TimeDiff {
     return { milliseconds, seconds, minutes, hours };
   }
 }
-let timediff = new TimeDiff();
-setTimeout(() => timediff.addPoint("test1"), 1500);
-setTimeout(() => timediff.addPoint("test12"), 1600);
-setTimeout(() => timediff.addPoint(), 1700);
-setTimeout(() =>  console.log(timediff.allTimePoints), 2000);
+module.exports = TimeDiff;
