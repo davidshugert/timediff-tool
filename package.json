@@ -1,6 +1,6 @@
 {
   "name": "timediff-tool",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "NPM module that helps you keep track of time for performance and optimization porpuses.",
   "main": "index.js",
   "scripts": {
